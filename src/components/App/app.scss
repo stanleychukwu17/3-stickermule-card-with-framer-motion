@@ -1,8 +1,6 @@
 @forward '../../styles/globals/';
 @use '../../styles/util/' as u1;
 
-
-
 body {
     background-color: #1b1e21 !important;
 }
@@ -14,13 +12,14 @@ body {
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
+        width: 95%;
+        margin: 60px auto;
 
         .ImgCvr {
             @include u1.block_display();
-
             width: 32%;
             margin: 10px 0;
-            height: 400px;
+            height: 300px;
             border-radius: 15px;
 
             img {
